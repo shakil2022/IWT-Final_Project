@@ -264,11 +264,45 @@ endif;?>
 </div>
 <!-- slider end -->
 
+<!-- about us section starts  -->
+<center> <h1 class="heading" style="margin-bottom: 80px; ">  <span>About</span> </h1></center>
+<section class="ftco-wrap-about">
 
+        <div class="intro"  id="about">
+            <div class="container"  id="sec_cond">
+                <div class="row">
+                    <div class="col">
+                        <div class="intro_content" style="    width: 600px;
+    margin-right: 100px;">
+                            <!-- <div class="intro_subtitle page_subtitle">About Us</div> -->
+                            <div class="intro_title">
+                                <h2>Shaheed Salam-Barkat Hall</h2>
+                            </div>
+                            <div class="intro_text" >
+                                <p>Greetings! On behalf of the warden, house tutors, staff, and students of Shaheed Salam-Barkat Hall, Jahangirnagar University, we welcome you! Shaheed Salam-Barkat Hall accomodates 396 students including Bachelors, Masters, M. Phill and Ph.D. program. Besides academic activities, the hall has already achieved
+All Present & Past students Of SSB Hall Can Join this Family (Group)....
+Join Here & Become Connected......
+You Can also Post Photos & Videos also.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-md-6 intro_col">
+                                <div class="intro_image"><img src="images/slider4.jpg" alt="intro"></div>
+                            </div>
+                            <div class="col-xl-4 col-md-6 intro_col">
+                                <div class="intro_image"><img src="images/img2.jpg" alt="intro"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
 <!-- provost  start -->
 <section class="provost" id="provost">
 
-<center> <h1 class="heading">  <span>Provost</span> </h1></center>
+<center> <h1 class="heading" style="margin-top: 80px;">  <span>Provost</span> </h1></center>
 
 <div class="box-container" >
 
