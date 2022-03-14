@@ -474,10 +474,10 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
     <div class="box">
         <h3>follow us</h3>
         <a target="_blank"  href="https://www.facebook.com/ssbhju" target="_blank" style="text-decoration: none;"> <i class="fab fa-facebook-f"></i> facebook </a>
-        <a href="#"> <i class="fab fa-twitter"  style="text-decoration: none;"></i> twitter </a>
-        <a href="#"> <i class="fab fa-instagram"  style="text-decoration: none;"></i> instagram </a>
-        <a href="#"> <i class="fab fa-linkedin" style="text-decoration: none;"></i> linkedin </a>
-        <a href="#"> <i class="fab fa-pinterest" style="text-decoration: none;"></i> pinterest </a>
+        <a href="#"style="text-decoration: none;"> <i class="fab fa-twitter"  ></i> twitter </a>
+        <a href="#"style="text-decoration: none;"> <i class="fab fa-instagram"  ></i> instagram </a>
+        <a href="#"style="text-decoration: none;"> <i class="fab fa-linkedin" ></i> linkedin </a>
+        <a href="#" style="text-decoration: none;"> <i class="fab fa-pinterest" ></i> pinterest </a>
     </div>
 
 </div>
