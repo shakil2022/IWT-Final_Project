@@ -170,7 +170,7 @@
 
           <ul>
                <li>
-                    <a href="../home.php"><i class="fas fa-home"></i> Home</a>
+                    <a href="#"><i class="fas fa-home"></i> Home</a>
                </li>
                <li>
                     <a href="../Provost/DispProvost.php"><i class="fas fa-user-md"></i> Provost</a>
@@ -350,14 +350,14 @@
 
 
 
-     <div class="log">
+     <!-- <div class="log">
 
           <h3>
                <a href="../home.php">
                     LOG OUT
                </a>
           </h3>
-     </div>
+     </div> -->
 
 </body>
 
