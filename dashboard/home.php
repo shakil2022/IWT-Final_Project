@@ -113,12 +113,12 @@
                width: 200px;
                height: 150px;
                margin: 20px ;
-               font-family: 'Mochiy Pop P One', sans-serif;
+               font-family:  sans-serif;
                font-weight: bolder;
                color: rgb(9, 9, 84);
                font-size: 20px;
                border: green;
-               background:lightskyblue;
+               background:green;
                border-radius: 0 35% 0 35%;
           }
 
