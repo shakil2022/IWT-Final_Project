@@ -81,82 +81,17 @@ endif;?>
 </head>
 <body>
 
-<!-- <header>
-    
-   
-     <a href="index.html" class="navbar-brand"><h3 class="text-uppercase">Shaheed Salam-Barkat  Hall</h3></a>
-     
-     <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button" >
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     
-
-   
-     <div class="collapse navbar-collapse menu-bar" id="menu">
-       <ul class="navbar-nav ">
-         <li class="nav-item active">
-           <a href="Provost/DispProvost.php" class="nav-link">Provost</a>
-           <div class="sub-menu-1">
-           >
-             
-           </div>
-         </li>
-         <li class="nav-item">
-           <a href="Student/DispStudent.php" class="nav-link">Student</a>
-        
-         </li>
-         <li class="nav-item">
-           <a href="Staff/DispStaff.php" class="nav-link">Staff</a>
-         </li>
-         <li class="nav-item">
-           <a href="Floor/DispFloor.php" class="nav-link">Floor</a>
-         </li>
-         <li class="nav-item">
-           <a href="Room/DispRoom.php" class="nav-link">Room</a>
-         </li>
-         <li class="nav-item">
-           <a href="FacilitiesProblem/DispFP.php" class="nav-link">Facilities Problem</a>
-         </li> -->
-
          <header class="header">
         <img src="images/ju_logo.png" alt style="height: 70px; width: 65px; margin-left:10px">
         <a href="" class="logo">Shaheed Salam-Barkat Hall</a>
-
-
         <nav class="navbar">
-           <!-- <a href="provost/output.php"style=" text-decoration:none; " >Provost</a>
-            <a href="Student/output.php"style=" text-decoration:none; " >Student</a>
-            <a href="Staff/output.php"style=" text-decoration:none; ">Staff</a>
-            <a href="Floor/output.php"style=" text-decoration:none; ">Floor</a>
-            <a href="Room/output.php"style=" text-decoration:none; ">Room</a>
-            <a href="FacilitiesProblem/output.php"style=" text-decoration:none; ">Facilities Problem</a> -->
             <a href="#about"style=" text-decoration:none; ">about</a>
              <a href="#provost"style=" text-decoration:none; " >Provost</a>
             <a href="Student/output.php"style=" text-decoration:none; " >Student</a>
             <a href="#Gallery"style=" text-decoration:none; " >Gallery</a>
-            <!-- <a href="Room/output.php"style=" text-decoration:none; ">Room</a> -->
-            <!-- <a href="http://localhost:3000/php/index.php">logout <i class="fa fa-sign-out" aria-hidden="true"></i> -->
-            <!-- <a href="dashboard/home.php"style=" text-decoration:none; ">Admin</a> -->
             <a href="#contact"style=" text-decoration:none; ">contact</a>
-             <!-- <a href="#footer"style=" text-decoration:none; ">footer</a> -->
              <button id="admin" style="    margin-left: 7px;height: 40px;width: 80px"><a href="login.php"style=" text-decoration:none; text-align:centre" id="link1">admin</a></button>
-            <!-- <a href="logout process.php"style=" text-decoration:none; " >logout <i class="fa fa-sign-out" aria-hidden="true"></i></a> -->
         </nav>
-
-        <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
-
-    <!-- <div class="collapse navbar-collapse justify-content-end" id="menu2">
-     <form action="" class="form-inline">
-       <input type="text" class="form-control mr-2 ">
-       <button type="submit" class="btn btn-success my-1">Search</button>
-     </form>
-    </div> -->
-    <!-- <div class="collapse navbar-collapse justify-content-end" id="modal">
-              <button> <a href="logout process.php"></a> <b> Log Out</b></button> -->
-
-              
-         <!--  <button type="button" class="btn btn-outline-success sign-btn" data-toggle="modal" data-target="#signUpModal">Sign Up</button> -->
-      <!-- </div> -->
 
 </nav>
     <!----Login form---->
@@ -278,10 +213,8 @@ endif;?>
                                 <h2>Shaheed Salam-Barkat Hall</h2>
                             </div>
                             <div class="intro_text" >
-                                <p>Greetings! On behalf of the warden, house tutors, staff, and students of Shaheed Salam-Barkat Hall, Jahangirnagar University, we welcome you! Shaheed Salam-Barkat Hall accomodates 396 students including Bachelors, Masters, M. Phill and Ph.D. program. Besides academic activities, the hall has already achieved
-All Present & Past students Of SSB Hall Can Join this Family (Group)....
-Join Here & Become Connected......
-You Can also Post Photos & Videos also.
+                                <p>Greetings! On behalf of the warden, house tutors, staff, and students of Shaheed Salam-Barkat Hall, Jahangirnagar University, we welcome you! Shaheed Salam-Barkat Hall accomodates 600 students including Bachelors, Masters, M. Phill and Ph.D. program. Besides academic activities, the hall has already achieved
+All Present & Past students Of SSB Hall Can Join this Family (Group).There are one Canteen,one Dyning, two block and two hundread rooms.
                             </div>
                         </div>
                         <div class="row">
@@ -320,247 +253,9 @@ You Can also Post Photos & Videos also.
 
 
 </div>
-
-</section>
-<!-- provost  end -->
-
-
-<!-- photo galery -->
-<!-- <section class="photo_galary" style="width: 100%; margin-top:20px">
-<div >
-    <h2 class="display-1 bdr my-4 text-center" style="margin-top: 10px;">Photo Galary</h2>
-</div>
-
-<div class="bg-dark">
-    <div class="container">
-     <div class="row pslick">
-       <div class="col-3">
-         <div class="card">
-           <img src="images/img1.jpg" width="200px" height="200px" class="rounded-circle mx-auto" alt="">
-           <div class="card-body text-center">
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <h2 class="card-title">Hall Features</h2>
-             <p class="card-text ">I am very happy  for my 2nd home</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-3">
-         <div class="card">
-           <img src="images/img2.jpg" width="200px" height="200px" class="rounded-circle mx-auto" alt="">
-           <div class="card-body text-center">
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <h2 class="card-title">Hall Features</h2>
-             <p class="card-text ">I am very happy  for my 2nd home</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-3">
-         <div class="card">
-           <img src="images/img3.jpg" width="200px" height="200px" class="rounded-circle mx-auto" alt="">
-           <div class="card-body text-center">
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <h2 class="card-title">Hall Features</h2>
-             <p class="card-text">I am very happy  for my 2nd home</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-3">
-         <div class="card">
-           <img src="images/img4.jpg" width="200px" height="200px" class="rounded-circle mx-auto" alt="">
-           <div class="card-body text-center">
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <h2 class="card-title">Hall Features</h2>
-             <p class="card-text">I am very happy  for my 2nd home</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-3">
-         <div class="card">
-           <img src="images/img5.jpg" width="200px" height="200px" class="rounded-circle mx-auto" alt="">
-           <div class="card-body text-center">
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <h2 class="card-title">Hall Features</h2>
-             <p class="card-text">I am very happy for my 2nd home</p>
-           </div>
-         </div>
-       </div>
-       <div class="col-3">
-         <div class="card">
-           <img src="images/img6.jpg" width="200px" height="200px" class="rounded-circle mx-auto" alt="">
-           <div class="card-body text-center">
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <span class="fa fa-star checked"></span>
-             <h2 class="card-title">Hall Features</h2>
-             <p class="card-text">I am very happy  for my 2nd home</p>
-           </div>
-         </div>
-       </div>
-     </div>
-    </div>
-</div> 
-</section> -->
-
-<!-- testimonial  end -->
-
-<!-- portfolio start -->
-<!-- <section style="margin-top: 20px;">
-<div >
-    <h2 class="display-1 bdr my-4 text-center">About</h2>
-</div>
-
-
-<div class="container">
-    
-    <ul class="nav nav-tabs justify-content-center">
-     <li class="nav-item">
-       <a href="#floor" data-toggle="tab" class="nav-link active" >
-         Floor
-       </a>
-     </li>
-     <li class="nav-item">
-       <a href="#Room" class="nav-link" data-toggle="tab">
-       Room
-       </a>
-     </li>
-     <li class="nav-item">
-       <a href="#Canteen" class="nav-link" data-toggle="tab">
-      Canteen
-       </a>
-     </li>
-    </ul>
-    
-    
-    <div class="tab-content">
-     
-     <div class="tab-pane container active my-4 fade show" id="Floor">
-       <div class="row">
-         <div class="col-5 m-2 m-md-0 col-md-3">
-           <a href="https://hall.info" target="_blank">
-             <img src="images/Floor1.jpg"  width="320px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-5 m-2 m-md-0 col-md-3">
-           <a href="#">
-             <img src="images/Floor2.jpg"   width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-5 m-2 m-md-0 col-md-3">
-           <a href="#">
-             <img src="images/Floor3.jpg"  width="300px" height="300px"  class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-5 m-2 m-md-0 col-md-3">
-           <a href="#">
-             <img src="images/Floor4.jpg"  width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-       </div>
-     </div>
-   
-     <div class="tab-pane container my-4 fade show" id="Room">
-       <div class="row">
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/Room1.jpg" width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/Room2.jpg" width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/Room3.jpg" width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/Room4.jpg" width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-       </div>
-     </div>
-    
-
-     <div class="tab-pane container my-4 fade show" id="Canteen">
-       <div class="row">
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/canteen1.jpeg" width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/canteen2.jpg"   width="300px" height="300px"  class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/canteen3.jpg"  width="300px" height="300px"  class="img-hv" alt="">
-           </a>
-         </div>
-         <div class="col-6 col-md-3">
-           <a href="#">
-             <img src="images/canteen4.jpg" width="300px" height="300px" class="img-hv" alt="">
-           </a>
-         </div>
-       </div>
-     </div>
-    </div>
  
-    
-</div>
-</section> -->
-
-<!-- portfolio end -->
-
-<!-- Portfolio Start -->
-<!-- <ul class="nav nav-tabs justify-content-center">
-     <li class="nav-item">
-       <a href="#floor" data-toggle="tab" class="nav-link active" >
-         Floor
-       </a>
-     </li>
-     <li class="nav-item">
-       <a href="#Room" class="nav-link" data-toggle="tab">
-       Room
-       </a>
-     </li>
-     <li class="nav-item">
-       <a href="#Canteen" class="nav-link" data-toggle="tab">
-      Canteen
-       </a>
-     </li>
-    </ul> -->
-    <!-- <section id="contact" class="contact">
- <h1 class=" heading">Contact</h1>
-        <div class="container" id="cont">
-  
-          <div class="section-title" id="sec_cond"> -->
+<!-- Galary section start-->
+</section>
 <div class="container-fluid pt-5 pb-3" id="Gallery" style="margin-top:20px">
 <h1 class=" heading">Galary</h1>
 <div class="row">
@@ -575,13 +270,7 @@ You Can also Post Photos & Videos also.
                 </div>
             </div>
         <div class="container" id="cont">
-            <div class="position-relative d-flex align-items-center justify-content-center"id="sec_cond1">
-                <!-- <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6; font-size:100px">Gallery</h1> -->
-                
-                <!-- <h1 class="position-absolute text-uppercase text-primary" style="font: size 3.5rem;;">Galary</h1> -->
-                <!-- <center> <h1 class="heading">  <span>gallery</span> </h1></center> -->
-         
-            
+            <div class="position-relative d-flex align-items-center justify-content-center"id="sec_cond1"> 
             <div class="row portfolio-container" id="room">
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" >
                     <div class="position-relative overflow-hidden mb-2">
@@ -677,72 +366,8 @@ You Can also Post Photos & Videos also.
         </div>
         </div>
     </div>
-    <!-- Portfolio End -->
+    <!-- Gallery End -->
 
-<!-- contact start -->
-<!-- <section style="margin-top: 30px;">
-<div id="contact">
-<center> <h1 class="heading">  <span>Contact</span> </h1></center>
-  
-</div>
-
-<div class="container">
-    <div class="row">
-     <div class="col-md-8">
-
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.2034418647563!2d90.26202471429966!3d23.882403589639125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e9a02b7f1e89%3A0x6d20e40f3a231f37!2sShaheed%20Salam%20Barkat%20Hall!5e0!3m2!1sen!2sbd!4v1643004346139!5m2!1sen!2sbd" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-     
-       
-     </div>
-     <div class="col-md-4">
-       <h2><strong>Contact</strong></h2>
-       <address>
-         Jahangirnagar University <br>
-         Savar,Dhaka <br>
-         Bangladesh <br>
-         Mobile: +880123456789 <br>
-         <a href="#">https://www.ssb.juniv.edu</a>
-       </address>
-     </div>
-    </div>
-</div>
-</section> -->
-<!-- message section start-->
-
-
-<!-- <section style="margin-top: 30px;">
-<div>
-     <h3 class="text-center my-4" style="border-bottom: 1px solid red; margin-top:10px">Send Your Message</h3>
-
-     <form action="">
-       <div class="row">
-         <div class="col-md-6">
-           <div class="form-group">
-           <input type="text" class="form-control" placeholder="Name">
-          </div>
-         </div>
-         <div class="col-md-6">
-           <div class="form-group">
-             <input type="email" class="form-control" placeholder="Email">
-           </div>
-         </div>
-       </div>
-       <div class="form-group">
-         <textarea name="" id="" class="form-control" cols="30" rows="10" placeholder="Enter Your Message" ></textarea>
-       </div>
-       <div class="form-group">
-         <button class="form-control btn btn-primary mb-4" type="submit">
-           Send
-         </button>
-       </div>
-       
-     </form>
-    </div>
-    </section>
-     -->
-
-<!-- commit -->
-<!-- contact end -->
 
  <!-- Contact Start -->
 
@@ -752,10 +377,6 @@ You Can also Post Photos & Videos also.
         <div class="container" id="cont">
   
           <div class="section-title" id="sec_cond">
-         
-            <!-- <p>If you have any query or douts please contact me.Thanks!!!!!</p> -->
-            <!-- </div> -->
-  
           <div class="row" data-aos="fade-in">
   
             <div class="col-lg-5 d-flex align-items-stretch">
@@ -796,15 +417,6 @@ You Can also Post Photos & Videos also.
                     <div class="validate"></div>
                   </div>
                 </div>
-                <!-- <div class="form-group">
-                <label for="Stu_id">Student ID</label>
-                <input
-                  type="number"
-                  class="form-control"
-                  id="Stu_id"
-                  name="Stu_id"
-                />
-              </div> -->
                 <div class="form-group">
                   <label for="Room_Num" class="message">Room Number</label>
                   <input type="text" class="form-control" name="Room_Num" id="Room_Num" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
@@ -890,17 +502,6 @@ You Can also Post Photos & Videos also.
                 <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/md-shakil-ahmed-b173b91ba/"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a class="btn btn-light btn-social" href="https://www.instagram.com/2013_shakil_ahmed/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-            <!-- <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
-                <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
-            </div> -->
-            <!-- <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Shakil Ahmed</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#"></a>
-            </p> -->
             <div class="credit"> created by <span>Group 8</span> | all rights reserved </div>
         </div>
     </div>
@@ -922,14 +523,6 @@ You Can also Post Photos & Videos also.
  
 <!--  smooth scroll -->
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-
-<!-- <script>
-// All animations will take exactly 500ms
-var scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 900,
-    speedAsDuration: true                                                                     
-});
-</script> -->
 
 <!-- jquery -->
 
@@ -972,9 +565,7 @@ var scroll = new SmoothScroll('a[href*="#"]', {
       slidesToScroll: 1
     }
   }
-  // You can unslick at a given breakpoint now by adding:
-  // settings: "unslick"
-  // instead of a settings object
+  
   ]
 });
 </script>
