@@ -29,7 +29,8 @@
                width: 15%;
                height: 700px;
                position: absolute;
-               background-color: rgba(195, 179, 179, 0.493);
+               /* background-color: rgba(195, 179, 179, 0.493); */
+               background-color: #E0FFFF;
           }
 
           .slidebar header {
@@ -72,11 +73,13 @@
           /* body decoratin starts */
           .mainpart {
                /* background: rgba(96, 193, 138, 0.722); */
-               background: #90EE90;
+               /* background: #90EE90; */
+               background-image: url(../images/images.jpg);
                width: 85%;
                height: 720px;
                float: right;
                position: relative;
+               background-size: cover;
           }
 
           .infocard {
