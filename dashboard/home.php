@@ -159,13 +159,13 @@
           .log h3:hover {
                transition: .5s;
                transform: scale(1.1);
-               background: red;
+               background: blue;
 
           }
           #hall{
-            font-size: 50px;
-            color: black;
-            /* background: red; */
+            font-size: 45px;
+            color:blue;
+            /* background: #CCE3F5; */
           }
      </style>
 
