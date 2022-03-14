@@ -257,11 +257,11 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
 <div class="row">
                 <div class="col-12 text-center mb-2">
                     <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*"style=" text-decoration:none; ">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first"><a href="#room" style=" text-decoration:none; " > Room </a>
+                        <li class="btn btn-sm btn-outline-info m-1 active"  data-filter="*"style=" text-decoration:none; ">All</li>
+                        <li class="btn btn-sm btn-outline-info m-1" data-filter=".first"><a href="#room" style=" text-decoration:none; " > Room </a>
                       </li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second"><a href="#floor" style=" text-decoration:none; " >Floor</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third"><a href="#canteen"  style=" text-decoration:none; ">Canteen</li>
+                        <li class="btn btn-sm btn-outline-info m-1" data-filter=".second"><a href="#floor" style=" text-decoration:none; " >Floor</li>
+                        <li class="btn btn-sm btn-outline-info m-1" data-filter=".third"><a href="#canteen"  style=" text-decoration:none; ">Canteen</li>
                     </ul>
                 </div>
             </div>
