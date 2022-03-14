@@ -146,6 +146,11 @@
                background: red;
 
           }
+          #hall{
+            font-size: 50px;
+            color: black;
+            /* background: red; */
+          }
      </style>
 
 
@@ -228,7 +233,7 @@
      <div class="mainpart">
 
           <div class="infocard">
-               <h1>Hall Management System</h1>
+               <h1 id="hall">Hall Management System</h1>
 
                <a href="../Provost/DispProvost.php" rel="">
                     <div class="cardspecific" style="width: 26%;">
