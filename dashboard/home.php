@@ -191,7 +191,7 @@
 
           <ul>
                <li>
-                    <a href="../Provost/DispProvost.php"><i class="fas fa-user-md"></i> Provost</a>
+                    <a href="../Provost/DispProvost.php"><i class="fas fa-user-tie"></i> Provost</a>
                </li>
                <li>
                     <a href="../Student/DispStudent.php"><i class="fas fa-book-reader"></i> Students</a>
