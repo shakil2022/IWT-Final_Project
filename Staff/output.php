@@ -49,20 +49,13 @@
 		<td class="tdr"><?php echo $row1['Address']; ?></td> 
     <td class="tdr"><?php echo $row1['Email']; ?></td>
     <td class="tdr"><?php echo $row1['Designation']; ?></td>
-    <!-- <td style="width: 140px;">
-                            <button><a href="Delete.php?S_ID=<?php echo $row1["S_ID"]; ?>">Delete</a></button>
-                            <button><a href="update.php?S_ID=<?php echo $row1["S_ID"]; ?>">Update</a></button>
-
-                            </td> -->
+  
 		</tr> 
 	<?php 
                } 
           ?> 
 
 	</table>
-   <!-- <a  href="#"><h3 btn style="font-family: sans-serif;  text-align:center; font-size:30px; font-color:green;" >Insert</h3> -->
-<!-- <button class="btn btn-primary btn-lg center"> <a href="#"></a> INSERT</button> -->
-
 <center>
  <button class="button" > <a href="index.html" style="text-decoration: none;">Search</a> </button>
  <button class="button" > <a href="../home.php" style="text-decoration: none;">Home Page</a> </button>

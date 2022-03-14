@@ -5,7 +5,3 @@ $password = "";
 mysqli_connect('localhost','root',''); 
 $conn =  mysqli_connect($sname, $uname, $password, 'final_dbms'); 
 ?>
-<!-- if(!$conn)
-{
-    echo "Connection failed!";
-} -->

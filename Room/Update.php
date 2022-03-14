@@ -30,9 +30,6 @@ $row= mysqli_fetch_array($result);
 <form name="frmUser" method="post" action="">
 <div><?php if(isset($message)) { echo $message; } ?>
 </div>
-<!-- <div style="padding-bottom:5px;">
- <a href="retrieve.php">Employee List</a> 
-</div> -->
 <section class="sec">
 Room Number: <br>
 <input style="width: 50%; height:30px; " type="hidden" name="Room_Number" class="txtField" value="<?php echo $row['Room_Number']; ?>">
@@ -47,11 +44,6 @@ Num of Bed:<br>
 Floor Number:<br>
 <input style="width: 50%; height:30px; " type="text" name="Floor_Number" class="txtField" value="<?php echo $row['Floor_Number']; ?>">
 <br>
-<!-- <br>
-Floor_Number:<br>
-<input style="width: 50%; height:30px; " type="text" name="Floor_Number" class="txtField" value="<?php echo $row['Floor_Number']; ?>">
-<br> -->
-<!-- <button>submit</button> -->
 <input style="width: 50%; height:30px; margin-top:30px " type="submit" name="submit" value="Submit" class="buttom">
 </section>
 

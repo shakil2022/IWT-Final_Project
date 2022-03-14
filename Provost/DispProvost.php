@@ -84,8 +84,6 @@
           ?> 
 
 	</table>
-   <!-- <a  href="#"><h3 btn style="font-family: sans-serif;  text-align:center; font-size:30px; font-color:green;" >Insert</h3> -->
-<!-- <button class="btn btn-primary btn-lg center"> <a href="#"></a> INSERT</button> -->
 
 <center>
  <button class="button" > <a href="provost.html" style="text-decoration: none;">INSERT</a> </button> 

@@ -5,8 +5,6 @@
 	$Session = $_POST['Session'];
 	$Room_Number = $_POST['Room_Number'];
 	$Floor_Number = $_POST['Floor_Number'];
-
-	// Database connection
 	$conn = new mysqli('localhost','root','','final_dbms');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
@@ -16,8 +14,6 @@
 		$stmt->bind_param("isssis", $Stu_id, $Name, $Department, $Session, $Room_Number, $Floor_Number);
 		$execval = $stmt->execute();
 		echo $execval;
-		// echo "Inserted successfully...";
-		// echo('DispStudent.php')
 		include "DispStudent.php";
 		$stmt->close();
 		$conn->close();

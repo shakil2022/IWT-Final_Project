@@ -52,19 +52,13 @@
 		<td class="tdr"><?php echo $row1['Num_of_Table']; ?></td> 
 		<td class="tdr"><?php echo $row1['Num_of_Bed']; ?></td> 
 		<td class="tdr"><?php echo $row1['Floor_Number']; ?></td> 
-    <!-- <td style="width: 140px;">
-    <button><a href="Delete.php?Room_Number=<?php echo $row1["Room_Number"]; ?>">Delete</a></button>
-    <button><a href="Update.php?Room_Number=<?php echo $row1["Room_Number"]; ?>">Update</a></button>
-
-                            </td> -->
 		</tr> 
 	<?php 
                } 
           ?> 
 
 	</table>
-   <!-- <a  href="#"><h3 btn style="font-family: sans-serif;  text-align:center; font-size:30px; font-color:green;" >Insert</h3> -->
-<!-- <button class="btn btn-primary btn-lg center"> <a href="#"></a> INSERT</button> -->
+
 
 <center>
   

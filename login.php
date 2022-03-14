@@ -9,7 +9,6 @@
         }
       
         .loginbtn{
-            /* background-color: lightblue; */
             width: 50%;
             height: 300px;
             background-image: url(images/table1.jpg);
@@ -24,7 +23,6 @@
   border: none;
   color: white;
   border-radius: 5px 5px;
-  /* padding: 15px 32px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;

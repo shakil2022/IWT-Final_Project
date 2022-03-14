@@ -14,8 +14,6 @@
 		$stmt->bind_param("iiis", $Room_Number, $Num_of_Table, $Num_of_Bed, $Floor_Number);
 		$execval = $stmt->execute();
 		echo $execval;
-		// echo "Inserted successfully...";
-		// echo('DispStudent.php')
 		include "DispRoom.php";
 		$stmt->close();
 		$conn->close();

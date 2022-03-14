@@ -1,11 +1,7 @@
 <?php
-// error_reporting(0);
-// $conn = mysqli_connect("localhost","root","","student");
 include 'connection.php';
-// if(count($_POST)>0) {
 $S_ID = $_POST['S_ID'];
 $result = mysqli_query($conn,"SELECT * FROM Staff where S_ID='$S_ID' ");
-//}
 ?>
 <!DOCTYPE html>
 <html>

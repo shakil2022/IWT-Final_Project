@@ -61,14 +61,6 @@
 		<td class="tdr"><?php echo $row1['Session']; ?></td> 
     <td class="tdr"><?php echo $row1['Room_Number']; ?></td>
     <td class="tdr"><?php echo $row1['Floor_Number']; ?></td>
-    <!-- <td style="width: 140px;">
-                                <button><a href="Delete.php?Stu_id=<?php echo $row1["Stu_id"]; ?>">Delete</a></button>
-                                <button>
-                                <a href="Update.php?Stu_id=<?php echo $row1["Stu_id"]; ?>">Update</a>
-                                </button>
-                               
-
-                            </td> -->
 		</tr> 
 	<?php 
                } 
