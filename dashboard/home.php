@@ -113,7 +113,7 @@
                width: 200px;
                height: 150px;
                margin: 20px ;
-               font-family:  sans-serif;
+               font-family: 'Mochiy Pop P One', sans-serif;
                font-weight: bolder;
                color: rgb(9, 9, 84);
                font-size: 20px;
@@ -249,7 +249,7 @@
           <div class="infocard">
                <h1 id="hall">Hall Management System</h1>
 
-               <a href="../Provost/DispProvost.php" rel="">
+               <a href="../Provost/DispProvost.php" rel="" style="text-decoration:none" >
                     <div class="cardspecific" style="width: 26%;">
                         Provost
                          <div class="number">
@@ -265,7 +265,7 @@
                     </div>
                </a>
 
-               <a href="../Student/DispStudent.php" rel="">
+               <a href="../Student/DispStudent.php" rel="" style="text-decoration:none">
                     <div class="cardspecific" style="width: 26%;">
                          Students
 
@@ -281,7 +281,7 @@
                     </div>
                </a>
 
-               <a href="../Staff/DispStaff.php" rel="">
+               <a href="../Staff/DispStaff.php" rel="" style="text-decoration:none">
                     <div class="cardspecific" style="width: 26%;">
                         Staffs
 
@@ -297,7 +297,7 @@
                     </div>
                </a>
 
-               <a href="../Floor/DispFloor.php" rel="">
+               <a href="../Floor/DispFloor.php" rel="" style="text-decoration:none">
                     <div class="cardspecific" style="width: 18%;">
                          Floors
 
@@ -313,7 +313,7 @@
                     </div>
                </a>
 
-               <a href="../Room/DispRoom.php" rel="">
+               <a href="../Room/DispRoom.php" rel="" style="text-decoration:none">
                     <div class="cardspecific" style="width: 18%;">
                       Rooms
 
@@ -329,7 +329,7 @@
                     </div>
                </a>
 
-               <a href="../FacilitiesProblem/DispFP.php" rel="">
+               <a href="../FacilitiesProblem/DispFP.php" rel="" style="text-decoration:none">
                     <div class="cardspecific" style="width: 25%;">
                          Facilities Problem
 
@@ -345,7 +345,7 @@
                     </div>
                </a>
 
-               <a href="../message/disp.php" rel="">
+               <a href="../message/disp.php" rel="" style="text-decoration:none">
                     <div class="cardspecific" style="width: 18%;">
                          Messages
 
