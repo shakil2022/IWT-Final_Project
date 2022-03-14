@@ -82,7 +82,7 @@ endif;?>
 <body>
 
 <!-- <header>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    
    
      <a href="index.html" class="navbar-brand"><h3 class="text-uppercase">Shaheed Salam-Barkat  Hall</h3></a>
      
