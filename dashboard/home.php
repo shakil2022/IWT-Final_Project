@@ -178,23 +178,20 @@
 
           <ul>
                <li>
-                    <a href="#"><i class="fas fa-home"></i> Home</a>
-               </li>
-               <li>
                     <a href="../Provost/DispProvost.php"><i class="fas fa-user-md"></i> Provost</a>
                </li>
                <li>
-                    <a href="../Student/DispStudent.php"><i class="fas fa-user-nurse"></i> Student</a>
+                    <a href="../Student/DispStudent.php"><i class="fas fa-user-nurse"></i> Students</a>
                </li>
                <li>
-                    <a href="../Staff/DispStaff.php"><i class="fas fa-user-injured"></i> Staff</a>
+                    <a href="../Staff/DispStaff.php"><i class="fas fa-user-injured"></i> Staffs</a>
                </li>
                <li>
-                    <a href="../Floor/DispFloor.php"><i class="fas fa-building"></i> Floor</a>
+                    <a href="../Floor/DispFloor.php"><i class="fas fa-building"></i> Floors</a>
 
                </li>
                <li>
-                    <a href="../Room/DispRoom.php"><i class="fa fa-bed"></i> Room</a>
+                    <a href="../Room/DispRoom.php"><i class="fa fa-bed"></i> Rooms</a>
 
                </li>
                <li>
@@ -202,7 +199,7 @@
 
                </li>
                <li>
-                    <a href="../message/disp.php"><i class="fas fa-envelope-open"></i> Mesages</a>
+                    <a href="../message/disp.php"><i class="fas fa-envelope-open"></i> Messages</a>
                </li>
           </ul>
 
@@ -272,7 +269,7 @@
 
                <a href="../Staff/DispStaff.php" rel="">
                     <div class="cardspecific" style="width: 26%;">
-                        Staff
+                        Staffs
 
                          <div class="number">
                               <?php
@@ -288,7 +285,7 @@
 
                <a href="../Floor/DispFloor.php" rel="">
                     <div class="cardspecific" style="width: 18%;">
-                         Floor
+                         Floors
 
                          <div class="number">
                               <?php
@@ -304,7 +301,7 @@
 
                <a href="../Room/DispRoom.php" rel="">
                     <div class="cardspecific" style="width: 18%;">
-                      Room
+                      Rooms
 
                          <div class="number">
                               <?php
@@ -320,7 +317,7 @@
 
                <a href="../FacilitiesProblem/DispFP.php" rel="">
                     <div class="cardspecific" style="width: 18%;">
-                         Facility Problem
+                         Facilities Problem
 
                          <div class="number">
                               <?php
