@@ -95,18 +95,31 @@
           }
 
           .cardspecific {
-               height: 160px;
+               
+               /* height: 160px;
                float: left;
                margin: 20px;
                border: solid black 5px;
                border-radius: 25%;
                font-weight: bolder;
-               color: rgb(9, 9, 84);
+               color: rgb(9, 9, 84); 
                font-size: 30px;
                font-family: 'Mochiy Pop P One', sans-serif;
                padding: 10px;
-               padding-top: 10px;
-
+               padding-top: 10px; */
+               position: relative;
+               float: left;
+               font-size: 30px;
+               width: 200px;
+               height: 150px;
+               margin: 20px ;
+               font-family: 'Mochiy Pop P One', sans-serif;
+               font-weight: bolder;
+               color: rgb(9, 9, 84);
+               font-size: 20px;
+               border: solid green;
+               background:green;
+               border-radius: 0 35% 0 35%;
           }
 
           .cardspecific:hover {
@@ -222,6 +235,7 @@
                <a style="text-decoration: none;" href="../home.php">
                     <div class="logout">
                          Log Out
+                         
                     </div>
                </a>
           </div>
