@@ -1,7 +1,4 @@
-<?php session_start();
-if(empty($_SESSION['id'])):
-header('Location:login.php');
-endif;?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -572,3 +569,7 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
 
 </body>
 </html>
+<?php session_start();
+if(empty($_SESSION['id'])):
+header('Location:login.php');
+endif;?>
