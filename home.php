@@ -465,9 +465,9 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
 
     <div class="box">
         <h3>contact info</h3>
-        <a href="#"> <i class="fas fa-phone" style="text-decoration: none;"></i> 1324 </a>
-        <a href="#"> <i class="fas fa-phone"style="text-decoration: none;"></i> 02224491045-51  </a>
-        <a href="#"> <i class="fas fa-envelope"style="text-decoration: none;"></i> ssbhall@gmail.com </a>
+        <a href="#"style="text-decoration: none;"> <i class="fas fa-phone"></i> 1324 </a>
+        <a href="#"style="text-decoration: none;"> <i class="fas fa-phone"></i> 02224491045-51  </a>
+        <a href="#"style="text-decoration: none;"> <i class="fas fa-envelope"></i> ssbhall@gmail.com </a>
         <a href="https://www.google.com/maps/place/Shaheed+Salam+Barkat+Hall/@23.8823987,90.2620247,17z/data=!3m1!4b1!4m5!3m4!1s0x3755e9a02b7f1e89:0x6d20e40f3a231f37!8m2!3d23.8823987!4d90.2642134"style="text-decoration: none;"> <i class="fas fa-map-marker-alt"></i> Jahangirnagar University, Savar, Dhaka-1342, Bangladesh. </a>
     </div>
 
