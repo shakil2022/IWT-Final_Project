@@ -71,9 +71,10 @@
 
           /* body decoratin starts */
           .mainpart {
-               background: rgba(96, 193, 138, 0.722);
+               /* background: rgba(96, 193, 138, 0.722); */
+               background: #90EE90;
                width: 85%;
-               height: 700px;
+               height: 720px;
                float: right;
                position: relative;
           }
