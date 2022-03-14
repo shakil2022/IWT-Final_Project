@@ -86,7 +86,7 @@
                margin: 30px;
                margin-top: 20px;
                width: 80%;
-               height: 580px;
+               height: 585px;
                position: fixed;
                text-align: center;
 
