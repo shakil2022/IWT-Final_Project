@@ -18,6 +18,11 @@
   display: inline-block;
   font-size: 16px;
 }
+#update{
+  background-color: blue;
+  color: black;
+  border-radius: 9px 9px;
+}
     </style>
 </head>
 <body>
@@ -34,7 +39,7 @@
 		die("Connection Failed : ". $conn->connect_error);
 	} else {
 		$stmt = $conn->prepare("insert into message_table(Stu_ID, Name, Room_Num, Messages) values(?, ?, ?, ?)");
-		$stmt->bind_param("isss",$Stu_ID, $Name, $Room_Num, $Messages);
+		$stmt->bind_param("ssss",$Stu_ID, $Name, $Room_Num, $Messages);
 		$execval = $stmt->execute();
 		echo $execval;
 		// echo "Inserted successfully...";
@@ -48,7 +53,7 @@
 	}
 ?>
 <center>
- <button class="button" > <a href="../home.php" style="text-decoration: none;">Home Page</a> </button> 
+ <button class="button" id="update"> <a href="../home.php" style="text-decoration: none;">Home Page</a> </button> 
               </center>
 </body>
 </html>

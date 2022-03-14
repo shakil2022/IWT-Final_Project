@@ -8,7 +8,7 @@ endif;?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shaheed Salam-Barkat Hall</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
     <link rel="shortcut icon" href="https://juniv.edu/images/favicon.ico">
@@ -119,20 +119,27 @@ endif;?>
          </li> -->
 
          <header class="header">
-        <img src="images/ju_logo.png" alt style="height: 70px; width: 65px;">
+        <img src="images/ju_logo.png" alt style="height: 70px; width: 65px; margin-left:10px">
         <a href="" class="logo">Shaheed Salam-Barkat Hall</a>
 
 
         <nav class="navbar">
-           <a href="provost/output.php"style=" text-decoration:none; " >Provost</a>
+           <!-- <a href="provost/output.php"style=" text-decoration:none; " >Provost</a>
             <a href="Student/output.php"style=" text-decoration:none; " >Student</a>
             <a href="Staff/output.php"style=" text-decoration:none; ">Staff</a>
             <a href="Floor/output.php"style=" text-decoration:none; ">Floor</a>
+            <a href="Room/output.php"style=" text-decoration:none; ">Room</a>
+            <a href="FacilitiesProblem/output.php"style=" text-decoration:none; ">Facilities Problem</a> -->
+             <a href="#provost"style=" text-decoration:none; " >Provost</a>
+            <a href="#Gallery"style=" text-decoration:none; " >Gallery</a>
+            <a href="Student/output.php"style=" text-decoration:none; " >Student</a>
             <a href="Room/output.php"style=" text-decoration:none; ">Room</a>
             <a href="FacilitiesProblem/output.php"style=" text-decoration:none; ">Facilities Problem</a>
             <!-- <a href="http://localhost:3000/php/index.php">logout <i class="fa fa-sign-out" aria-hidden="true"></i> -->
             <!-- <a href="dashboard/home.php"style=" text-decoration:none; ">Admin</a> -->
             <a href="login.php"style=" text-decoration:none; ">admin</a>
+            <a href="#contact"style=" text-decoration:none; ">contact</a>
+             <!-- <a href="#footer"style=" text-decoration:none; ">footer</a> -->
             <a href="logout process.php"style=" text-decoration:none; " >logout <i class="fa fa-sign-out" aria-hidden="true"></i>
 </a>
         </nav>
@@ -521,7 +528,7 @@ endif;?>
         <div class="container" id="cont">
   
           <div class="section-title" id="sec_cond"> -->
-<div class="container-fluid pt-5 pb-3" id="portfolio" style="margin-top:20px">
+<div class="container-fluid pt-5 pb-3" id="Gallery" style="margin-top:20px">
 <h1 class=" heading">Galary</h1>
 <div class="row">
                 <div class="col-12 text-center mb-2">
@@ -595,9 +602,9 @@ endif;?>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" id="floor">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="images/Floor2.jpg" alt="">
+                        <img class="img-fluid rounded w-100" src="images/Floor3.jpg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="images/Floor2.jpg" data-lightbox="portfolio">
+                            <a href="images/Floor3.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
@@ -605,9 +612,9 @@ endif;?>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" id="canteen">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="images/canteen1.jpeg" alt="">
+                        <img class="img-fluid rounded w-100" src="images/canteen1.jpg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="images/canteen1.jpeg" data-lightbox="portfolio">
+                            <a href="images/canteen1.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
@@ -615,9 +622,9 @@ endif;?>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" id="canteen">
                     <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="images/canteen1.jpeg" alt="">
+                        <img class="img-fluid rounded w-100" src="images/canteen2.jpg" alt="">
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="images/canteen1.jpeg" data-lightbox="portfolio">
+                            <a href="images/canteen2.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
@@ -747,7 +754,7 @@ endif;?>
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <label for="Stu_ID" class="message">Student ID</label>
-                    <input type="number" name="Stu_ID" class="form-control" id="Stu_ID" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="Stu_ID" class="form-control" id="Stu_ID" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                     <div class="validate"></div>
                   </div>
                   <div class="form-group col-md-6">
@@ -793,7 +800,7 @@ endif;?>
 
 <!-- footer start -->
 
-<section class="footer">
+<section class="footer" id="footer">
 
 <div class="box-container">
 

@@ -5,6 +5,12 @@
 		<title> Fetch Data From Database </title> 
     
     <style>
+      body{
+        background-image: url(../images/sea2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
       .tdr{
         text-align:center;
       }
@@ -20,12 +26,28 @@
   display: inline-block;
   font-size: 16px;
 }
+#delete{
+  background-color: #f44336;
+  color: black;
+  border-radius: 9px 9px;
+
+}
+#link1{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+#update{
+  background-color: blue;
+  color: black;
+  border-radius: 9px 9px;
+}
 
       </style>
 	</head> 
   
 	<body bgcolor="lightblue"> 
-	<table align="center" border="1px" style="width:1000px; line-height:40px;"> 
+	<table align="center" border="1px" style="width:1000px; line-height:40px; margin-top:50px"> 
 	<tr> 
 		<th colspan="8"><h2>Floor</h2></th> 
 		</tr> 
@@ -50,8 +72,8 @@
 		<td class="tdr"><?php echo $row1['Num_of_Room']; ?></td> 
     <td class="tdr"><?php echo $row1['Num_of_Washroom']; ?></td>
     <td style="width: 140px;">
-    <button><a href="Delete.php?Floor_Number=<?php echo $row1["Floor_Number"]; ?>"style=" text-decoration:none; ">Delete</a></button>
-    <button><a href="Update.php?Floor_Number=<?php echo $row1["Floor_Number"]; ?>"style=" text-decoration:none; ">Update</a></button>
+    <button id="delete"><a href="Delete.php?Floor_Number=<?php echo $row1["Floor_Number"]; ?>"style=" text-decoration:none; " id="link1">Delete</a></button>
+    <button id="update"><a href="Update.php?Floor_Number=<?php echo $row1["Floor_Number"]; ?>"style=" text-decoration:none; " id="link1">Update</a></button>
                             </td>
 		</tr> 
 	<?php 

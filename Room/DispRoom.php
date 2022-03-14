@@ -25,12 +25,28 @@
   display: inline-block;
   font-size: 16px;
 }
+#delete{
+  background-color: #f44336;
+  color: black;
+  border-radius: 9px 9px;
+
+}
+#link1{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+#update{
+  background-color: blue;
+  color: black;
+  border-radius: 9px 9px;
+}
 
       </style>
 	</head> 
   
 	<body > 
-	<table align="center" border="1px" style="width:1000px; line-height:40px;"> 
+	<table align="center" border="1px" style="width:1100px; line-height:40px;"> 
 	<tr> 
 		<th colspan="8"><h2>Room</h2></th> 
 		</tr> 
@@ -48,13 +64,14 @@
      while($row1=mysqli_fetch_array($query)) 
 		{ 
 		?> 
+    <a href="" ></a>
 		<tr> <td class="tdr"><?php echo $row1['Room_Number']; ?></td> 
 		<td class="tdr"><?php echo $row1['Num_of_Table']; ?></td> 
 		<td class="tdr"><?php echo $row1['Num_of_Bed']; ?></td> 
 		<td class="tdr"><?php echo $row1['Floor_Number']; ?></td> 
     <td style="width: 140px;">
-    <button><a href="Delete.php?Room_Number=<?php echo $row1["Room_Number"]; ?>">Delete</a></button>
-    <button><a href="Update.php?Room_Number=<?php echo $row1["Room_Number"]; ?>">Update</a></button>
+    <button id="delete"><a href="Delete.php?Room_Number=<?php echo $row1["Room_Number"]; ?>" id="link1">Delete</a></button>
+    <button id="update"><a href="Update.php?Room_Number=<?php echo $row1["Room_Number"]; ?>" id="link1">Update</a></button>
 
                             </td>
 		</tr> 

@@ -6,7 +6,7 @@
     
     <style>
 		body{
-			/* background-image: url(../images/img2.jpg);
+			/* background-image: url(../images/g2.jpg);
 			background-size: cover; */
 			background-color: lightskyblue;
 			
@@ -30,13 +30,28 @@
 	margin-top: 10px;
 	margin-left: 125px;
 }
+#delete{
+  background-color: #f44336;
+  color: black;
+  border-radius: 9px 9px;
 
+}
+#link1{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+#update{
+  background-color: blue;
+  color: black;
+  border-radius: 9px 9px;
+}
       </style>
 	</head> 
   
 	<body> 
 		<section class="main">
-	<table align="center" border="1px" style="width:1100px; line-height:40px;"> 
+	<table align="center" border="1px" style="width:1100px; line-height:40px; margin-top:60px"> 
 	<tr> 
 		<th colspan="9"><h2>Facilities Problem</h2></th> 
 		</tr> 
@@ -69,8 +84,8 @@
    
 
     <td style="width: 140px;">
-    <button ><a href="Delete.php?Room_Number=<?php echo $row1["Room_Number"]; ?>">Delete</a></button>
-    <button ><a href="Update.php?Room_Number=<?php echo $row1["Room_Number"]; ?>">Update</a></button>
+    <button id="delete"><a href="Delete.php?Room_Number=<?php echo $row1["Room_Number"]; ?>" id="link1">Delete</a></button>
+    <button id="update"><a href="Update.php?Room_Number=<?php echo $row1["Room_Number"]; ?>" id="link1">Update</a></button>
 
                             </td>
 		</tr> 

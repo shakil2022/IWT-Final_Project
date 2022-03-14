@@ -5,6 +5,11 @@
 		<title> Fetch Data From Database </title> 
     
     <style>
+      body{
+        background-image: url(../images/g1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
       .tdr{
         text-align:center;
       }
@@ -21,6 +26,17 @@
   font-size: 16px;
 }
 
+#delete{
+  background-color: #f44336;
+  color: black;
+  border-radius: 9px 9px;
+
+}
+#link1{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
       </style>
 	</head> 
   
@@ -32,7 +48,8 @@
 			  <th> Student ID </th> 
 			  <th> Name </th> 
         <th> Room Number </th> 
-			  <th> message </th>
+			  <th> Message </th>
+       
        
 			  
 			  
@@ -49,7 +66,7 @@
 		<td class="tdr"><?php echo $row1['Room_Num']; ?></td> 
     <td class="tdr"><?php echo $row1['Messages']; ?></td>
     <!-- <td style="width: 140px;">
-                            <button><a href="Delete.php?S_ID=<?php echo $row1["Stu_ID"]; ?>">Delete</a></button>
+                           <center> <button id="delete"><a href="Delete.php?S_ID=<?php echo $row1["Stu_ID"]; ?>" id="link1">Delete</a></button></center>
                             <button><a href="update.php?S_ID=<?php echo $row1["Stu_ID"]; ?>">Update</a></button>
 
                             </td> -->

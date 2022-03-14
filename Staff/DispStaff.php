@@ -5,6 +5,11 @@
 		<title> Fetch Data From Database </title> 
     
     <style>
+      body{
+        background-image: url(../images/g1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
       .tdr{
         text-align:center;
       }

@@ -29,6 +29,23 @@
   margin-top: 70px;
 
 }
+#delete{
+  background-color: #f44336;
+  color: black;
+  border-radius: 9px 9px;
+
+}
+#link1{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+#update{
+  background-color: blue;
+  color: black;
+  border-radius: 9px 9px;
+}
+
 
       </style>
 	</head> 
@@ -62,9 +79,9 @@
     <td class="tdr"><?php echo $row1['Room_Number']; ?></td>
     <td class="tdr"><?php echo $row1['Floor_Number']; ?></td>
     <td style="width: 140px;">
-                                <button><a href="Delete.php?Stu_id=<?php echo $row1["Stu_id"]; ?>">Delete</a></button>
-                                <button>
-                                <a href="Update.php?Stu_id=<?php echo $row1["Stu_id"]; ?>">Update</a>
+                                <button id="delete"><a href="Delete.php?Stu_id=<?php echo $row1["Stu_id"]; ?>" id="link1">Delete</a></button>
+                                <button id="update">
+                                <a href="Update.php?Stu_id=<?php echo $row1["Stu_id"]; ?>"id="link1"> Update</a>
                                 </button>
                                
 

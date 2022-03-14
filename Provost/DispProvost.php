@@ -28,6 +28,22 @@
 .table1{
   margin-top: 70px;
 }
+#delete{
+  background-color: #f44336;
+  color: black;
+  border-radius: 9px 9px;
+
+}
+#link1{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+#update{
+  background-color: blue;
+  color: black;
+  border-radius: 9px 9px;
+}
 
       </style>
 	</head> 
@@ -60,7 +76,7 @@
     <td class="tdr"><?php echo $row1['Email']; ?></td>
     <td class="tdr"><?php echo $row1['Designation']; ?></td>
     <td style="width: 140px;">
-    <button class="btn btn-danger"><a href="Delete.php?P_ID=<?php echo $row1["P_ID"]; ?>">Delete</a></button>
+    <center><button id="delete"><a href="Delete.php?P_ID=<?php echo $row1["P_ID"]; ?>" id="link1" style="text-align:center" >Delete</a></button></center>
                             </td>
 		</tr> 
 	<?php 
