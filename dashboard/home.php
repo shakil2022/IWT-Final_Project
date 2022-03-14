@@ -191,28 +191,28 @@
 
           <ul>
                <li>
-                    <a href="../Provost/DispProvost.php"><i class="fas fa-user-tie"></i> Provost</a>
+                    <a href="../Provost/DispProvost.php"style="text-decoration:none"><i class="fas fa-user-tie" ></i> Provost</a>
                </li>
                <li>
-                    <a href="../Student/DispStudent.php"><i class="fas fa-book-reader"></i> Students</a>
+                    <a href="../Student/DispStudent.php"style="text-decoration:none"><i class="fas fa-book-reader"></i> Students</a>
                </li>
                <li>
-                    <a href="../Staff/DispStaff.php"><i class="fas fa-users"></i> Staffs</a>
+                    <a href="../Staff/DispStaff.php"style="text-decoration:none"><i class="fas fa-users"></i> Staffs</a>
                </li>
                <li>
-                    <a href="../Floor/DispFloor.php"><i class="fas fa-building"></i> Floors</a>
+                    <a href="../Floor/DispFloor.php"style="text-decoration:none"><i class="fas fa-building"></i> Floors</a>
 
                </li>
                <li>
-                    <a href="../Room/DispRoom.php"><i class="fa fa-bed"></i> Rooms</a>
+                    <a href="../Room/DispRoom.php"style="text-decoration:none"><i class="fa fa-bed"></i> Rooms</a>
 
                </li>
                <li>
-                    <a href="../FacilitiesProblem/DispFP.php"><i class="fas fa-exclamation-triangle"></i> Facilities Problem</a>
+                    <a href="../FacilitiesProblem/DispFP.php"style="text-decoration:none"><i class="fas fa-exclamation-triangle"></i> Facilities Problem</a>
 
                </li>
                <li>
-                    <a href="../message/disp.php"><i class="fas fa-envelope-open"></i> Messages</a>
+                    <a href="../message/disp.php"style="text-decoration:none"><i class="fas fa-envelope-open"></i> Messages</a>
                </li>
           </ul>
 
