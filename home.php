@@ -130,18 +130,17 @@ endif;?>
             <a href="Floor/output.php"style=" text-decoration:none; ">Floor</a>
             <a href="Room/output.php"style=" text-decoration:none; ">Room</a>
             <a href="FacilitiesProblem/output.php"style=" text-decoration:none; ">Facilities Problem</a> -->
+            <a href="#about"style=" text-decoration:none; ">about</a>
              <a href="#provost"style=" text-decoration:none; " >Provost</a>
-            <a href="#Gallery"style=" text-decoration:none; " >Gallery</a>
             <a href="Student/output.php"style=" text-decoration:none; " >Student</a>
-            <a href="Room/output.php"style=" text-decoration:none; ">Room</a>
-            <a href="FacilitiesProblem/output.php"style=" text-decoration:none; ">Facilities Problem</a>
+            <a href="#Gallery"style=" text-decoration:none; " >Gallery</a>
+            <!-- <a href="Room/output.php"style=" text-decoration:none; ">Room</a> -->
             <!-- <a href="http://localhost:3000/php/index.php">logout <i class="fa fa-sign-out" aria-hidden="true"></i> -->
             <!-- <a href="dashboard/home.php"style=" text-decoration:none; ">Admin</a> -->
-            <a href="login.php"style=" text-decoration:none; ">admin</a>
             <a href="#contact"style=" text-decoration:none; ">contact</a>
              <!-- <a href="#footer"style=" text-decoration:none; ">footer</a> -->
-            <a href="logout process.php"style=" text-decoration:none; " >logout <i class="fa fa-sign-out" aria-hidden="true"></i>
-</a>
+             <button id="admin" style="    margin-left: 7px;height: 40px;width: 80px"><a href="login.php"style=" text-decoration:none; text-align:centre" id="link1">admin</a></button>
+            <!-- <a href="logout process.php"style=" text-decoration:none; " >logout <i class="fa fa-sign-out" aria-hidden="true"></i></a> -->
         </nav>
 
         <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
