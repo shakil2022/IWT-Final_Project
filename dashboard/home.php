@@ -95,7 +95,7 @@
                float: left;
                margin: 20px;
                border: solid black 5px;
-               border-radius: 30px;
+               border-radius: 25%;
                font-weight: bolder;
                color: rgb(9, 9, 84);
                font-size: 30px;
