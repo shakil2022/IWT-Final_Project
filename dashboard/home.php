@@ -117,8 +117,8 @@
                font-weight: bolder;
                color: rgb(9, 9, 84);
                font-size: 20px;
-               border: solid green;
-               background:green;
+               border: green;
+               background:lightskyblue;
                border-radius: 0 35% 0 35%;
           }
 
@@ -330,7 +330,7 @@
                </a>
 
                <a href="../FacilitiesProblem/DispFP.php" rel="">
-                    <div class="cardspecific" style="width: 18%;">
+                    <div class="cardspecific" style="width: 25%;">
                          Facilities Problem
 
                          <div class="number">
