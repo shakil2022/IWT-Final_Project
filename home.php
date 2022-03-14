@@ -206,7 +206,7 @@
                         <div class="intro_content" style="width: 550px; margin-right: 172px;height: 415px;">
                             <!-- <div class="intro_subtitle page_subtitle">About Us</div> -->
                             <div class="intro_title">
-                                <h2>Shaheed Salam-Barkat Hall</h2>
+                                <h3>Shaheed Salam-Barkat Hall</h3>
                             </div>
                             <div class="intro_text" >
                                 <p>Greetings! On behalf of the warden, house tutors, staff, and students of Shaheed Salam-Barkat Hall, Jahangirnagar University, we welcome you! Shaheed Salam-Barkat Hall accomodates 600 students including Bachelors, Masters, M. Phill and Ph.D. program. Besides academic activities, the hall has already achieved
