@@ -346,19 +346,6 @@
 
      </div>
 
-
-
-
-
-     <!-- <div class="log">
-
-          <h3>
-               <a href="../home.php">
-                    LOG OUT
-               </a>
-          </h3>
-     </div> -->
-
 </body>
 
 </html>
