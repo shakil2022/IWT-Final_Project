@@ -261,7 +261,7 @@ color: black;
   border:var(--border);
   box-shadow: var(--box-shadow);
   padding:2rem;
-  width: 1220px;
+  width: 120px;
 }
 .featured {
   padding-top: 30px;

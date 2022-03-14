@@ -19,9 +19,13 @@
   font-size: 16px;
 }
 #update{
-  background-color: blue;
+  background-color: lightblue;
   color: black;
   border-radius: 9px 9px;
+}
+.record{
+  border: white solid 1px;
+  
 }
     </style>
 </head>
@@ -42,12 +46,13 @@
 		$stmt->bind_param("ssss",$Stu_ID, $Name, $Room_Num, $Messages);
 		$execval = $stmt->execute();
 		echo $execval;
-        echo "Your Problem has been recorder.....";
+        // echo "Your Problem has been recorder.....";
 		$stmt->close();
 		$conn->close();
 	}
 ?>
 <center>
+  <div class="record"><h1>Your Problem has been recorded.....</h1></div>
  <button class="button" id="update"> <a href="../home.php" style="text-decoration: none;">Home Page</a> </button> 
               </center>
 </body>
