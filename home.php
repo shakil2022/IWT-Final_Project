@@ -235,7 +235,7 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
 <div class="box-container" >
 
     <div class="box">
-        <img src="images/provost.png" alt="">
+        <img src="images/provost.jpg" alt="">
         <h1>Dr. Ali Azam Talukder</h1>
         <h4>Professor</h4>
         <h4>Department of Microbiology</h4>
