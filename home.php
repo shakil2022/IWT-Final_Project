@@ -498,7 +498,7 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
                 <a class="btn btn-light btn-social mr-2" href="#"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a class="btn btn-light btn-social" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="credit"> created by <span>Group 8</span> | all rights reserved </div>
+            <div class="credit"> <h2>created by <span>Group 8</span> | @all rights reserved</h2> </div>
         </div>
     </div>
      <!-- footer -->
