@@ -1,6 +1,4 @@
 <?php
-// $search = $_POST['search'];
-// $Modified_Date = $_POST['Modified_Date'];
 include 'connection.php';
 
 $Modified_Date=$_POST['Modified_Date'];

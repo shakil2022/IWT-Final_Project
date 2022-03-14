@@ -42,12 +42,7 @@
 		$stmt->bind_param("ssss",$Stu_ID, $Name, $Room_Num, $Messages);
 		$execval = $stmt->execute();
 		echo $execval;
-		// echo "Inserted successfully...";
-		// echo('DispStudent.php')
         echo "Your Problem has been recorder.....";
-		// include "../home.php";
-        // echo('/home.php');
-        // include '../home.php';
 		$stmt->close();
 		$conn->close();
 	}

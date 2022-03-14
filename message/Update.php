@@ -2,10 +2,8 @@
 include_once 'connection.php';
 if(count($_POST)>0) {
 mysqli_query($conn,"UPDATE message_table set Stu_ID='" . $_POST['Stu_ID'] . "', Name='" . $_POST['Name'] . "', Room_Num='" . $_POST['Room_Num'] . "', Messages='" . $_POST['Messages'] . "' WHERE Stu_ID='" . $_POST['Stu_ID'] . "'");
-//  $message = "Record Modified Successfully";
-// Stu_ID, Name, Room_Num, Messages
+
 include "disp.php";
-//require "DispStudent.php";
 
 }
 $result = mysqli_query($conn,"SELECT * FROM message_table WHERE Stu_ID='" . $_GET['Stu_ID'] . "'");
@@ -31,9 +29,6 @@ $row= mysqli_fetch_array($result);
 <form name="frmUser" method="post" action="">
 <div><?php if(isset($message)) { echo $message; } ?>
 </div>
-<!-- <div style="padding-bottom:5px;">
- <a href="retrieve.php">Employee List</a> 
-</div> -->
 <section class="sec">
 Student ID: <br>
 <input style="width: 50%; height:30px; " type="hidden" name="Stu_ID" class="txtField" value="<?php echo $row['Stu_ID']; ?>">

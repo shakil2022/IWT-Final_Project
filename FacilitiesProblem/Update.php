@@ -6,8 +6,6 @@ mysqli_query($conn,"UPDATE facility_problem set Damaged_Fan_Un='" . $_POST['Dama
   Damaged_Light_Un='" . $_POST['Damaged_Light_Un'] . "',Damaged_Light_Pro='" . $_POST['Damaged_Light_Pro'] . "',Damaged_Light_Sol='" . $_POST['Damaged_Light_Sol'] . "',Modified_Date='" . $_POST['Modified_Date'] . "' WHERE Room_Number='" . $_POST['Room_Number'] . "'");
 //  $message = "Record Modified Successfully";
 include "DispFP.php";
-//require "DispStudent.php";
-
 }
 $result = mysqli_query($conn,"SELECT * FROM facility_problem WHERE Room_Number='" . $_GET['Room_Number'] . "'");
 $row= mysqli_fetch_array($result);
@@ -32,9 +30,6 @@ $row= mysqli_fetch_array($result);
 <form name="frmUser" method="post" action="">
 <div><?php if(isset($message)) { echo $message; } ?>
 </div>
-<!-- <div style="padding-bottom:5px;">
- <a href="retrieve.php">Employee List</a> 
-</div> -->
 <section class="sec">
 Room Number: <br>
 <input style="width: 50%; height:30px; " type="hidden" name="Room_Number" class="txtField" value="<?php echo $row['Room_Number']; ?>">
@@ -61,11 +56,6 @@ Damaged Ligth Solved:<br>
 Last Modifed Date:<br>
 <input style="width: 50%; height:30px; " type="text" name="Modified_Date" class="txtField" value="<?php echo $row['Modified_Date']; ?>">
 <br>
-<!-- <br>
-Floor_Number:<br>
-<input style="width: 50%; height:30px; " type="text" name="Floor_Number" class="txtField" value="<?php echo $row['Floor_Number']; ?>">
-<br> -->
-<!-- <button>submit</button> -->
 <input style="width: 50%; height:30px; margin-top:30px " type="submit" name="submit" value="Submit" class="buttom">
 </section>
 
