@@ -178,9 +178,6 @@
 
           <ul>
                <li>
-                    <a href="#"><i class="fas fa-home"></i> Home</a>
-               </li>
-               <li>
                     <a href="../Provost/DispProvost.php"><i class="fas fa-user-md"></i> Provost</a>
                </li>
                <li>
