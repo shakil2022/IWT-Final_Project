@@ -80,7 +80,7 @@
 
          <header class="header">
         <img src="images/ju_logo.png" alt style="height: 70px; width: 65px; margin-left:10px">
-        <a href="" class="logo">Shaheed Salam-Barkat Hall</a>
+        <a href="#" class="logo" style="text-decoration: none;">Shaheed Salam-Barkat Hall</a>
         <nav class="navbar">
             <a href="#about"style=" text-decoration:none; ">about</a>
              <a href="#provost"style=" text-decoration:none; " >Provost</a>
@@ -257,11 +257,11 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
 <div class="row">
                 <div class="col-12 text-center mb-2">
                     <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first"><a href="#room" > Room </a>
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*"style=" text-decoration:none; ">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first"><a href="#room" style=" text-decoration:none; " > Room </a>
                       </li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second"><a href="#floor" >Floor</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third"><a href="#canteen" >Canteen</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second"><a href="#floor" style=" text-decoration:none; " >Floor</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third"><a href="#canteen"  style=" text-decoration:none; ">Canteen</li>
                     </ul>
                 </div>
             </div>
@@ -568,7 +568,4 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
 
 </body>
 </html>
-<?php session_start();
-if(empty($_SESSION['id'])):
-header('Location:login.php');
-endif;?>
+ 
