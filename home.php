@@ -503,8 +503,7 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
     </div>
      <!-- footer -->
 
- <!-- Scroll to Bottom -->
- <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
 
 <!-- Back to Top -->
 <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
