@@ -215,7 +215,8 @@ All Present & Past students Of SSB Hall Can Join this Family (Group).There are o
                         </div>
                         <div class="row">
                             <div class="col-xl-6.5 col-md-6 intro_col">
-                                <div class="intro_image"><img src="images/slider4.jpg" alt="intro"></div>
+                                <div class="intro_image"><img src="images/slider4.jpg" alt="intro" style="max-width: 100%;
+    border-radius: 0px 0px 10px 10px; border: 2px solid darksalmon"></div>
                             </div>
                             <!-- <div class="col-xl-4 col-md-4 intro_col">
                                 <div class="intro_image"><img src="images/img2.jpg" alt="intro"></div>
