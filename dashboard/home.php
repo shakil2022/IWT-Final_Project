@@ -118,7 +118,7 @@
                color: rgb(9, 9, 84);
                font-size: 20px;
                border: green;
-               background:green;
+               background:lightcyan;
                border-radius: 0 35% 0 35%;
           }
 
